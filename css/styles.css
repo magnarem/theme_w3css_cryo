@@ -216,7 +216,13 @@ font-family: "Lucida Grande", "Lucida Sans Unicode", Segoe UI, Helvetica, Arial,
 
 /*
  * Adding float: left for node type image for news list on front page to look ok.
+ * Also fixed image styling for news view
+ *
+ * magnarem
  */
-.node--type-news img {
+article.node--type-news  img {
+	float: left;
+}
+body.path-view-news img {
 	float: left;
 }
